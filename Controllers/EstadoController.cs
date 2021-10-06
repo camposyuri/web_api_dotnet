@@ -22,6 +22,7 @@ namespace web_api_dotnet.Controllers
     [HttpGet]
     public List<Estado> GetEstados()
     {
+      List<Estado> lista = EstadoDB.GetEstados();
       return lista;
     }
 

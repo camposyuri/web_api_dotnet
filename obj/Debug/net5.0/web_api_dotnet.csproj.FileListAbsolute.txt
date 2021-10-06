@@ -27,3 +27,4 @@
 /home/yuri/Documents/Repos/web_api_dotnet/obj/Debug/net5.0/ref/web_api_dotnet.dll
 /home/yuri/Documents/Repos/web_api_dotnet/obj/Debug/net5.0/web_api_dotnet.pdb
 /home/yuri/Documents/Repos/web_api_dotnet/obj/Debug/net5.0/web_api_dotnet.genruntimeconfig.cache
+/home/yuri/Documents/Repos/web_api_dotnet/bin/Debug/net5.0/Npgsql.dll

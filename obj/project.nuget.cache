@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "cl5K0+yBhRahkKFIXvVeiEBGUA/XELoUBNgLTe0K8aFy7FuF8lh2hN5Xa/U2MdDIVV+77+xaOoj8k6Dq2bZhCA==",
+  "dgSpecHash": "CxPVPRvqutX0Kb1ivueV6oKMrLRQiqbwbALfbqZFPfpLi6EsiI31RWh+1V6SrgVnwcIeo2jGQvM/rPuELou5sw==",
   "success": true,
   "projectFilePath": "/home/yuri/Documents/Repos/web_api_dotnet/web_api_dotnet.csproj",
   "expectedPackageFiles": [
     "/home/yuri/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/yuri/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/yuri/.nuget/packages/npgsql/5.0.7/npgsql.5.0.7.nupkg.sha512",
     "/home/yuri/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/yuri/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/yuri/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/home/yuri/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/home/yuri/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/yuri/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }
