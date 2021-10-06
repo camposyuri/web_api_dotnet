@@ -44,5 +44,31 @@ namespace web_api_dotnet.Controllers
       return lista;
     }
 
+
+    public static bool IncluiEstado(Estado estado)
+    {
+      bool result = false;
+      try
+      {
+
+        NpgsqlConnection conexao = Conexao.GetConexao();
+
+        string sql = " INSERT INTO estado (est_sigla, nome) " +
+                     " VAlUES (@sigla, @nome)        ";
+
+        NpgsqlCommand cmd = new NpgsqlCommand(sql, conexao);
+
+        cmd.Parameters.Add("@sigla", NpgsqlTypes.NpgsqlDbType.Varchar).Value = estado.Sigla;
+        cmd.Parameters.Add("@nome", NpgsqlTypes.NpgsqlDbType.Varchar).Value = estado.Nome;
+
+        int valor = cmd.ExecuteNonQuery();
+        if (valor > 0) result = true;
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine("Erro de SQL: " + e.Message);
+      }
+      return result;
+    }
   }
 }

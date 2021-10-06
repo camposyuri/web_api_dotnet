@@ -30,8 +30,17 @@ namespace web_api_dotnet.Controllers
     [HttpPost]
     public string PostEstado(Estado estado)
     {
-      lista.Add(estado);
-      return "Estado cadastrado com sucesso!";
+      bool result = EstadoDB.IncluiEstado(estado);
+
+      if (result)
+      {
+        return "Estado cadastrado com sucesso!";
+      }
+      else
+      {
+        return "Erro ao cadastrar o estado";
+      }
+
     }
 
     // Method Put
